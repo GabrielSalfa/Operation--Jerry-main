@@ -1,0 +1,10 @@
+/*Estilo volver */
+.volver {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    color: black;
+}
+.volver:hover {
+    color: purple;
+}

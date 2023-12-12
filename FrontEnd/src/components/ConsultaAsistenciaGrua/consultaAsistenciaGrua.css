@@ -1,0 +1,101 @@
+.contenedor {
+    max-width: 120rem;
+    margin: 0 auto;
+}
+
+.utility {
+    background-color: #000; /* --secundario */
+}
+
+.Nav-Principal {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.Nav-Principal a {
+    display: block;
+    text-align: center;
+    color: #fff; /* --blanco */
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: bolder;
+    padding: 1rem;
+}
+
+.Nav-Principal a:hover {
+    background-color: #fff; /* --primario */
+    color: #fff; /* --oscuro */
+}
+
+.Cool-Button {
+    background-color: #497962; /* --verde */
+    color: #fff; /* --blanco */
+    padding: 1rem 3rem;
+    margin-top: 1rem;
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bolder;
+    border-radius: .5rem;
+    text-align: center;
+    border: none;
+}
+
+.Formulario {
+    width: fit-content;
+    margin: auto;
+    border-radius: 25px;
+    background-color: #fff; /* --blanco */
+    text-align: center;
+    padding: 2%;
+    transform: translate(0, 50%);
+}
+
+.Inputcito {
+    outline: none;
+    border: none;
+    margin-bottom: 1px;
+    background-color: transparent;
+    border-bottom: 1px solid #333;
+}
+
+.footerAG {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    background-color: #fff; /* --blanco */
+}
+
+.Visualizacion-Datos-Grua {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-spacing: 10px;
+    background-color: #4F5378; /* --azul */
+    border: 1px solid #333333;
+}
+
+.Informacion-Consulta-Asistencia {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #9CA766; /* --lima */
+}
+
+.Datos-Consulta-Asistencia {
+    margin-right: 1%;
+}
+
+.Icono {
+    width: 25px;
+    height: 25px;
+}
+
+#Estadisticas-Globales {
+    display: none;
+}

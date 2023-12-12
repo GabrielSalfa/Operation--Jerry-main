@@ -1,0 +1,64 @@
+.utility {
+  background-color: #fff;
+}
+
+.Nav-Principal {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.Nav-Principal a {
+  display: block;
+  text-align: center;
+  color: #fff; /* Cambiado de --blanco */
+  text-decoration: none;
+  font-size: 2rem;
+  font-weight: bolder;
+  padding: 1rem;
+}
+
+.Nav-Principal a:hover {
+  background-color: #fff; /* Cambiado de --primario */
+  color: #fff; /* Cambiado de --oscuro */
+}
+
+.Cool-Button {
+  background-color: #fff; /* Cambiado de --secundario */
+  color: #fff; /* Cambiado de --blanco */
+  padding: 1rem 3rem;
+  margin-top: 1rem;
+  font-size: 2rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bolder;
+  border-radius: .5rem;
+  width: 90%;
+  text-align: center;
+  border: none;
+}
+
+.Formulario {
+  width: fit-content;
+  margin: auto;
+  border-radius: 25px;
+  background-color: #fff; /* Cambiado de --blanco */
+  text-align: center;
+  padding: 2%;
+  transform: translate(0, 50%);
+}
+
+.Inputcito {
+  outline: none;
+  border: none;
+  margin-bottom: 1px;
+  background-color: transparent;
+  border-bottom: 1px solid #333;
+}
+
+.footerIngresoSini {
+  background-color: #4F5378; /* Usado directamente el color azul oscuro */
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+}

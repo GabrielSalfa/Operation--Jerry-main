@@ -1,0 +1,155 @@
+.TituloTabla {
+  margin-bottom: 20px;
+  text-align: center;
+  color: #333;
+  font-size: 24px;
+}
+
+/* Estilos de la Tabla */
+.tablaEmploys {
+  width: 100%;
+  border-collapse: collapse;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  margin: 0;
+  padding: 0;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.CtablaEmploys {
+  background-color: #007bff; /* Color de fondo de la cabecera */
+  color: white; /* Color del texto de la cabecera */
+}
+
+.CtablaEmploys th {
+  padding: 12px 15px;
+  text-align: left;
+  font-weight: bold;
+}
+
+.CuerpoTEmploys td {
+  padding: 12px 15px;
+  border-bottom: 1px solid #eaecef;
+}
+
+.CuerpoTEmploys tr:nth-child(even) {
+  background-color: #edf2f7; /* Color de fondo de las filas pares */
+}
+
+
+.boton-acciones {
+  background-color: #17a2b8;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.boton-acciones:hover {
+  background-color: #138496;
+}
+
+.menu-acciones {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+}
+
+.menu-acciones button {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 5px;
+  margin-top: 5px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.menu-acciones button:hover {
+  background-color: #218838;
+}
+/* Estilos generales del Modal */
+.modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  z-index: 1000;
+  width: 80%;
+  max-width: 500px;
+}
+
+/* Título del Modal */
+.TituloModal {
+  color: #333;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Contenedor de campos del formulario */
+.DivModal {
+  margin-bottom: 15px;
+}
+
+/* Estilo de los campos del formulario */
+.campoField {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+/* Botones del formulario */
+.BtnnModal {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  margin-top: 10px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.BtnnModal[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.BtnnModal[type="button"] {
+  background-color: #f44336;
+  color: white;
+}
+
+/* Mensaje de error de validación */
+.form-error {
+  color: red;
+  font-size: 0.8rem;
+  margin-top: 5px;
+}
+.radio-group {
+  display: flex;
+  align-items: center; /* Alinea verticalmente los elementos */
+  margin-bottom: 5px; /* Añade un espacio entre las filas */
+}
+
+/* Estilo para la etiqueta del radio button */
+.radio-label {
+  margin-left: 10px; /* Añade espacio entre el botón de radio y la etiqueta */
+  font-size: 1rem; /* Tamaño de fuente para la etiqueta */
+}
+
+/* Estilo para el radio button */
+.radio-button {
+  margin: 0; /* Elimina márgenes por defecto */
+  cursor: pointer; /* Cambia el cursor a puntero para indicar que es seleccionable */
+}

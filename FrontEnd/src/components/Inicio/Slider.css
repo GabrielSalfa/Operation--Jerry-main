@@ -1,0 +1,41 @@
+.slider-container {
+    position: relative;
+    width: 110vw;
+    max-width: 720px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.slide {
+    display: none;
+    width: 100%;
+}
+
+.active {
+    display: block;
+}
+
+.imagenSlider {
+    width: 100%;
+    height: 100%; 
+    object-fit: cover; 
+}
+
+.slide-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #ddd;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 1000;
+}
+
+.prev {
+    left: 0;
+}
+
+.next {
+    right: 0;
+}
